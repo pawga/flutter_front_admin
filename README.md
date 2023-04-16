@@ -15,3 +15,10 @@ https://127.0.0.1:8443/say-hello?username=Serg
 
 ### Additional Information
 * [Server source code with self-signed certificate](https://github.com/pawga/ssl-demo)
+
+### Screenshot examples
+
+![Screenshot1](./images/1.png)
+![Screenshot2](./images/2.png)
+![Screenshot3](./images/3.png)
+![Screenshot4](./images/4.png)
