@@ -1,12 +1,15 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'core/DevHttpOverrides.dart';
 import 'core/lang/translations.dart';
 import 'routes/app_pages.dart';
 import 'theme/theme_data.dart';
 
 Future<void> main() async {
-
+  HttpOverrides.global = DevHttpOverrides();
   var initial = Routes.home;
 
   runApp(GetMaterialApp(
